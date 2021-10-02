@@ -1,0 +1,17 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 729754701@qq.com
+    password: liu332771964
+    properties:
+      mail:
+        smtp:
+          auth: true
+          timeout: 25000
+          port: 465
+          ssl:
+            enable: true
+          starttls:
+            enable: true
+            required: true
+    default-encoding: utf-8
